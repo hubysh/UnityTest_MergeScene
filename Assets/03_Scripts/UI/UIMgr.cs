@@ -6,7 +6,8 @@ public class UIMgr : MonoBehaviour
 	public void OnClickStartBtn()
 	{
 		Debug.Log("Click Button");
-		Application.LoadLevel("scnSphere");
+		Application.LoadLevel("scnMain");
+		Application.LoadLevelAdditive("scnSphere");
 		Application.LoadLevelAdditive("scnCylinder");
 	
 	}

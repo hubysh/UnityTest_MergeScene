@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/01_Scenes/scnMain.unity
+  - enabled: 1
+    path: Assets/01_Scenes/scnCylinder.unity
+  - enabled: 1
+    path: Assets/01_Scenes/scnSphere.unity
